@@ -1,0 +1,66 @@
+# SETUP (MONDAY) (10min)
+- Earlier last semester I gave a talk called "Why Software Sucks"
+	- And here I am talking to you about how to do web development
+	- I am also a CS major
+		- This makes me a hypocrite
+	- If software sucks then why am I doing this
+		- You'll meet amazing people (that's why we're visiting tech companies)
+		- You'll feel super powerful, and start building things ASAP
+		- Empowering and effective use of time
+	- It happens that web development is one of the most rewarding ways to get into developing software/learning to code
+		- Every single one of you is going to make a personal website
+		- The world can see it - an hour a day, for 5 days, for exposure to the entire world
+			- That's crazy!
+	- Let's get started
+
+- Register on GitHub
+- Get Student Developer Pack (columbia email)
+- Download Sublime Text 3
+- Git
+	- git config --global user.name  "Neil Chen"
+	- git config --global user.email "neil.chen@columbia.edu"
+- Basic command line use
+	- Terminal, Powershell
+	- cd
+	- ls
+
+# HTML (MONDAY) (40min)
+- HTML
+	- hypertext markup language
+		- annotating a text to stylize it
+	- structure of a website
+		- https://zachlatta.com/
+	- content of a website - all the text
+- tags
+	- element names surrounded by angle brackets
+	- start tag and end tag
+	- html tags normally come in opening and closing tags
+- elements
+	- header tags, h1-h6, hierarchy
+	- anchor tags (links to parts of this page or another page)
+- paths (relative vs. absolute)
+	- relative paths are relative to something
+	- working directory
+	- absolute paths point to the same thing regardless of current working directory
+- doctype declaration
+	- tells browser to render html (turn it into visible stuff)
+- comments
+	- not rendered by the browser
+- head vs body
+	- head encapsulates meta elements - information about the contents, title of the page, files that the document is going to need
+		- loaded before the page displays
+	- body encapsulates the content of the website
+		- anything you want displayed
+		- loaded after the head
+- formatting convention
+	- indentation
+- file organization
+	- paths
+- divs
+	- define a division or section in an html document
+- good practice
+	- use divs sparingly
+	- block vs inline element(?)
+- element inspector
+## Project
+- Header + picture + paragraph + links

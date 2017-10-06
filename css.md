@@ -1,0 +1,79 @@
+# REVIEW (TUESDAY) (5min)
+
+- What do we think about web development so far?
+- 'Web development' is a pretty nebulous term. Any website on the Internet has to be developed.
+	- Just a single page of plaintext (www.example.com)
+	- To complex internet applications (Facebook)
+- Interdisciplinary
+	- Graphic design
+	- Web design
+	- Search engine optimization
+	- Mobile responsiveness
+- Frontend dev
+	- Client-side
+	- What the user sees
+		- UI elements - menus, dropdowns, transitions
+- Backend dev
+	- Server-side
+	- What happens behind the scenes
+		- Control data and behaviors - a todo list app might save things to a database on the server side
+- Full stack dev
+	- e.g. Jean from Fundera
+	- Both frontend and backend
+	- Working knoweldge of both ends is useful
+- For JADE, we'll focus on the frontend
+	- Explore the backend a little bit
+- HTML describes the **structure** and content of a website
+- CSS describes the **presentation** of a webpage
+	- Color
+	- Layout
+	- Font	
+
+# CSS (TUESDAY) (50min)
+- http://evan.land/
+- https://rasmi.io/
+- https://schlosser.io/
+- http://eunicod.es/
+- http://michelle-chiu.github.io/
+- http://sahirjaggi.github.io/
+
+- Formatted as selector { property: value } ...
+	- selector - a pattern used to select the elements you want to style
+	- the way this works is, styles are applied to specific elements
+	- but html elements can be nested
+	- **cascading** - more specific styles are applied with a higher priority than less specific styles
+		- similar to inheritance for you object-oriented philes
+- IDs and Classes
+	- id's only apply to a single element - good for a single button for example
+	- classes can apply to multiple elements -good for applying the same styling to multiple divs
+- Inline vs External
+	- yuo can also write css internally - <style> </style> in your <head></head>
+		- if put in body, it will load after
+	- you can write css inline or in a separate file + link to that file in your html
+	- divs define a section or division
+- font-size
+	- em vs. px. vs pt. vs %
+		- em - 1em = current document font size
+		- px - fixed-size, but does not scale to fit mobile devices
+		- pt - 1/72", usually not used
+		- %  - like em, where curr. doc. font size = 100%
+- line-height
+	- minimum height of line boxes within element
+	- line box - like a line of text, imagine a rectangular box enclosing a line of text
+- font-size
+	- size of font lol
+- font-family
+	- Serif vs. sans serif
+	- Kerning
+- color
+- position
+- width/height
+- text-align
+- the "Box Model"
+	- padding
+	- border
+	- margin
+- linking external css
+	- <link href="..." rel="stylesheet" type="text/css"> <<< but it turns out type defaults to text/css for html5
+
+# PROJECT
