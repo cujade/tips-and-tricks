@@ -14,7 +14,7 @@ found on GroupMe>`.
   ```
     In this case, we'll upload the `neils-personal-site` directory.
 
-4. Open **powershell** and type `ssh hacker@45.55.191.36`. If this doesn't work for you, then install an SSH client, like [PuTTY](http://www.putty.org/), and enter `45.55.191.35` as the **Host**, `hacker` as the **Username**, and `lit` as the **Password**.
+4. Open **powershell** and type `ssh <SERVER>`. If this doesn't work for you, then install an SSH client, like [PuTTY](http://www.putty.org/), and enter `<SERVER>` as the **Host**, `<USERNAME>` as the **Username**, and `<PASSWORD>` as the **Password**.
 5. `cd` into your personal site directory, which should now be on the server. For example, `cd neils-personal-site`. If I `ls` the contents of `neils-personal-site`, I should see my `index.html`, `styles.css`, and `script.js`.
 6. Update the git config settings, just to make sure commits get attribued to you:
   `git config user.name "Jane Doe"`
